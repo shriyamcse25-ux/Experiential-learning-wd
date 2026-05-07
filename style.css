@@ -1,0 +1,75 @@
+body{
+    margin:0;
+    font-family:'Fredoka', sans-serif;
+    background:linear-gradient(to right,#8EC5FC,#E0C3FC);
+}
+
+section{
+    padding:40px;
+}
+
+.main-title{
+    text-align:center;
+    font-size:35px;
+    color:#333;
+}
+
+.content-box{
+    width:80%;
+    margin:auto;
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 10px gray;
+}
+
+p, label, li{
+    font-size:18px;
+    color:#444;
+}
+
+ul{
+    margin-left:20px;
+}
+
+input,
+select{
+    width:100%;
+    padding:10px;
+    margin-top:5px;
+    margin-bottom:15px;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+input[type="checkbox"]{
+    width:auto;
+}
+
+.my-button{
+    background:#ff6ec4;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:20px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+.my-button:hover{
+    background:#7873f5;
+}
+
+.center{
+    text-align:center;
+}
+
+.price-tag{
+    font-size:22px;
+    color:#ff4fa3;
+    font-weight:bold;
+}
+
+.warning{
+    color:red;
+}*
